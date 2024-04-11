@@ -10,7 +10,7 @@ class tank(physicsBody.physicsBody):
         
         
         super().__init__()
-        self.mass = 1000
+        self.mass = 0
         
         
     def getFuelMass(self):

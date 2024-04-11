@@ -30,14 +30,14 @@ class simulation:
         self.timeData.append(self.time)
         
         
-        if self.rocket.getPosition()[2] < -1:
+        if self.rocket.getPosition()[2] < 0:
             self.running = 0
         
         
     def run(self):
         while self.running:
             self.update()
-            self.rocket.printState()
+            # self.rocket.printState()
             
         fig, axs = plt.subplots(2)
         

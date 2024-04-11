@@ -16,7 +16,7 @@ class engine(physicsBody.physicsBody):
         
         
         super().__init__()
-        self.mass = 100
+        self.mass = 0
     
     def getMass(self):
         return self.mass
