@@ -3,11 +3,11 @@ import numpy as np
 
 class engine(physicsBody.physicsBody):
     def __init__(self):
-        self.I_sp = 200*9.81 #using SI-Units m/s | divide by g to get conventional unit in s
+        self.I_sp = 300*9.81 #using SI-Units m/s | divide by g to get conventional unit in s
         
        
         
-        self.massFlow = 1000 #kg/s
+        self.massFlow = 2000 #kg/s
         self.oxFuelRatio = 1 #Oxidizer Fuel Ratio
         
         
